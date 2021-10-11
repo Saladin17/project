@@ -1,6 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
     color:white;
+    min-height:100vh;
+    background: linear-gradient(180deg, rgba(98, 20, 2, 0.31) 0%, #621402 85.62%) ,url("bg.jpg") no-repeat center top / cover ;
 }
 
 
@@ -11,8 +13,7 @@ body {
     padding-bottom: 30px;
 }
 .header {
-    min-height: 100vh;
-    background: linear-gradient(180deg, rgba(98, 20, 2, 0.31) 0%, #621402 85.62%) ,url("bg.jpg") no-repeat center top / cover;
+ 
 }
 
 .items {
@@ -39,6 +40,8 @@ body {
 }
 .user {
     margin-left: auto;
+    display:flex;
+    align-items: center;
 }
 .so-header {
    font-size:24px;
@@ -58,15 +61,16 @@ body {
     line-height:150%;
     display:flex;
     align-items: center;
+    margin-top:23px;
+    
 }
 .play-button{
     position: relative;
-    width: 100px;
-    height: 100px;
-    left: 1035px;
-    bottom: 150px;
+    left:100%;
+    
 } 
 .footer {
+    margin-top:53px;
     display:flex;
     align-items: center;
 }
@@ -84,7 +88,7 @@ body {
     display:flex;
     align-items: center ;
     margin-top:46px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     justify-content: space-between;
@@ -178,4 +182,205 @@ body {
     top:30px;
     margin-right:80px;
     position: relative;
+}
+.bg-kresla {
+    margin-top: 61px;
+}
+.monitor-kresla {
+    position: relative;
+    width: 1018px;
+    height: 0px;
+    left: 85px;
+    bottom:650px;
+}
+.light-kresla {
+    position: relative;
+width: 914px;
+height: 67px;
+left: 128px;
+bottom:635px;
+}
+.kresla1 {
+    position: relative;
+width: 908.5px;
+height: 176px;
+left:131px;
+bottom:610px;
+}
+.kresla2 {  
+    position: relative ;
+width: 472px;
+height: 176px;
+left: 73px;
+bottom: 560px;
+
+}
+.kresla3 {
+    position: relative;
+width: 472px;
+height: 176px;
+left: 625px;
+bottom: 735px;
+}
+.f-s-n {
+   
+    width: 1018px;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+position: relative;
+width: 409px;
+height: 29px;
+left: -290px;
+bottom:-30px;
+font-size: 16px;
+line-height: 19px;
+}
+.hr { 
+    display: flex;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    position: relative;
+width: 1018px;
+height: 0px;
+bottom: 680px;
+}
+.free {
+    display: flex;
+    align-items: center;
+}
+.no {
+    display: flex;
+    align-items: center;
+
+}
+.select {
+    display: flex;
+    align-items: center;
+}
+.select-botton {
+    margin-left:15.5px;
+}
+.oplata {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 52px;
+    
+    background: #FE8E05;
+    border-radius: 5px;
+      position: relative;
+width: 254px;
+height: 69px;
+left: 751px;
+bottom: 550px;
+font-family: Roboto;
+font-weight: bold;
+font-size: 17px;
+line-height: 21px;
+}
+.buy1 {
+    position: relative;
+    bottom:550px;
+  align-items: center;
+}
+small {
+    font-size:10px;
+}
+.rub {
+    font-size: 52px;
+}
+.buy {
+    display: flex;
+    align-items: center;
+}
+.cinema-club {
+    background: rgba(36, 36, 36, 0.18);
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.cinema-club path:not(.light) {
+    fill:rgba(255, 255, 255, 0.2)
+}
+.cinema-club path.light {
+    fill: linear-gradient(180deg, rgba(196, 196, 196, 0.21) 0%, rgba(196, 196, 196, 0) 100%);
+}
+.cinema-club path:not(.light):hover {
+    fill:rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+.cinema-club path.booked {
+    fill: rgba(255, 255, 255, 0.05);
+}
+.cinema-club path.booked:hover {
+    cursor:no-drop;
+    fill: rgba(255, 255, 255, 0.05);
+}
+
+.cinema-club path.active,
+.cinema-club path.active:hover {
+    fill: #FE8E05;
+}
+.svobodno {
+    display: flex;
+    align-items: center;
+}
+.legend {
+    display:flex;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+     max-width:1024px;
+     margin:auto;
+     padding-top:22px;
+     padding-bottom: 38px;
+     
+}
+.vibrano {
+    display:flex;
+    align-items: center;
+}
+.zanyato {
+    display:flex;
+    align-items: center;
+}
+.free {
+    margin-right: 30px;
+
+}
+.vibran {
+    margin-right: 30px;
+
+
+}
+.zanyat {
+    margin-right: 30px;
+}
+.legend svg {
+    margin-right: 15px;
+}
+.price {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.price-label {
+    display: block;
+    font-size: 18px;
+    line-height: 21 px;
+}
+.price-total {
+    font-size: 52px;
+    line-height: 61px;
+}
+.button {
+    padding:24px 52px;
+    display: block;
+    background: #FE8E05;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
 }
